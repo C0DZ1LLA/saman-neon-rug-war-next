@@ -1,0 +1,24 @@
+{
+  "name": "saman-neon-rug-war-next",
+  "version": "3.1.0",
+  "private": true,
+  "description": "Universal Next.js mobile/desktop neon rug defense game with 1-10 upgrades, weapons, money, bosses, drones, and effects.",
+  "scripts": {
+    "dev": "next dev --webpack -H 0.0.0.0 -p 3000",
+    "dev:turbo": "next dev -H 0.0.0.0 -p 3000",
+    "build": "next build --webpack",
+    "start": "next start -H 0.0.0.0 -p 3000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.2.10",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.9.3"
+  }
+}

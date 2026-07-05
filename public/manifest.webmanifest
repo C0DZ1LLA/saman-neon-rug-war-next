@@ -1,0 +1,19 @@
+{
+  "name": "Saman Neon Rug War",
+  "short_name": "Rug War",
+  "description": "Universal mobile and desktop neon chaos defense game.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#050711",
+  "theme_color": "#050711",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

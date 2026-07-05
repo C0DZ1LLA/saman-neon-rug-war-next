@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#17234a"/>
+      <stop offset="0.55" stop-color="#080b19"/>
+      <stop offset="1" stop-color="#02030a"/>
+    </radialGradient>
+    <linearGradient id="rug" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff2bd6"/>
+      <stop offset="0.5" stop-color="#4d123d"/>
+      <stop offset="1" stop-color="#22e8ff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="url(#bg)"/>
+  <g filter="url(#glow)">
+    <rect x="92" y="158" width="328" height="210" rx="42" fill="url(#rug)" stroke="#ffd166" stroke-width="16"/>
+    <rect x="124" y="190" width="264" height="146" rx="24" fill="none" stroke="#22e8ff" stroke-width="8" opacity="0.8"/>
+    <path d="M160 306L256 210L352 306M160 220L256 316L352 220" fill="none" stroke="#fff" stroke-width="12" opacity="0.5"/>
+    <circle cx="256" cy="263" r="42" fill="#050711" stroke="#4dff9d" stroke-width="10"/>
+  </g>
+</svg>
